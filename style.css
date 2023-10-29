@@ -52,10 +52,6 @@ canvas {
 
 .chart-container {
     height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 40px;
 }
 
@@ -66,9 +62,10 @@ canvas {
     font-weight: bolder;
     color: #1F2937;
     flex: 1;
+    text-align: center;
 }
 
-.chart-container .chart {
+.chart {
     max-width: 80%;
     display: flex;
     justify-content: space-evenly;
@@ -95,6 +92,49 @@ canvas {
 .chart-buttons button:active {
   background-color: #455469;
   transform: translateY(4px);
+}
+
+/******TABS******/
+
+.tabs {
+    overflow: hidden;
+}
+
+.tabs .controls {
+    display: flex;
+}
+
+.tabs .controls button {
+    flex: 1;
+    background-color: #1f2937;
+    font-size: medium;
+    color: #F9FAF8;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.tabs .controls button.active {
+    border-bottom:solid 7px #1f2937;
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+
+.tabs .tabs-container {
+    display: flex;
+    flex-wrap: nowrap;
+    transform: translateX(-0%);
+    transition: all 0.2s ease-in;
+}
+
+.tabs .tabs-container .tab {
+    width: 100%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /******FOOTER******/

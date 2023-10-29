@@ -19,15 +19,63 @@
     </div>
     <div class="chart-container">
         <h2>CHART</h2>
-        <div class="chart">
-            <section class="header-chart">
-                <canvas id="myChart" width="800" height="300"></canvas>
-            </section>
-        </div>
-        <div class="chart-buttons">
-            <button class="chart-add">Add</button>
-            <button class="chart-delete">Delete</button>
-            <button class="chart-modify">Modify</button>
+        <div class="tabs">
+            <div class="controls">
+                <button class="active">Chart-1</button>
+                <button>Chart-2</button>
+                <button>Chart-3</button>
+                <button>Chart-4</button>
+            </div>
+            <div class="tabs-container">
+                <div class="tab">
+                    <div class="chart">
+                        <section class="header-chart">
+                            <canvas id="myChart1" width="800" height="300"></canvas>
+                        </section>
+                    </div>
+                    <div class="chart-buttons">
+                        <button class="chart-add">Add</button>
+                        <button class="chart-delete">Delete</button>
+                        <button class="chart-modify">Modify</button>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="chart">
+                        <section class="header-chart">
+                            <canvas id="myChart2" width="800" height="300"></canvas>
+                        </section>
+                    </div>
+                    <div class="chart-buttons">
+                        <button class="chart-add">Add</button>
+                        <button class="chart-delete">Delete</button>
+                        <button class="chart-modify">Modify</button>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="chart">
+                        <section class="header-chart">
+                            <canvas id="myChart3" width="800" height="300"></canvas>
+                        </section>
+                    </div>
+                    <div class="chart-buttons">
+                        <button class="chart-add">Add</button>
+                        <button class="chart-delete">Delete</button>
+                        <button class="chart-modify">Modify</button>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="chart">
+                        <section class="header-chart">
+                            <canvas id="myChart4" width="800" height="300"></canvas>
+                        </section>
+                    </div>
+                    <div class="chart-buttons">
+                        <button class="chart-add">Add</button>
+                        <button class="chart-delete">Delete</button>
+                        <button class="chart-modify">Modify</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <footer>
@@ -35,5 +83,6 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js" integrity="sha512-dnUg2JxjlVoXHVdSMWDYm2Y5xcIrJg1N+juOuRi0yLVkku/g26rwHwysJDAMwahaDfRpr1AxFz43ktuMPr/l1A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="main.js"></script>
+    <script src="tabs.js"></script>
 </body>
 </html>
