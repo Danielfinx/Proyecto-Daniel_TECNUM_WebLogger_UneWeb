@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Logger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero-container">
+        <div class="logo"><img src="./logo/bar-chart-675.svg" alt="Ball">WebLogger</div>
+        <div class="links">
+            <a href="#" class="link-one">Link One</a>
+            <a href="#" class="link-two">Link Two</a>
+            <a href="#" class="link-three">Link Three</a>
+        </div>
+    </div>
+    <div class="chart-container">
+        <h2>CHART</h2>
+        <div class="chart">
+            <section class="header-chart">
+                <canvas id="myChart" width="800" height="300"></canvas>
+            </section>
+        </div>
+        <div class="chart-buttons">
+            <button class="chart-add">Add</button>
+            <button class="chart-delete">Delete</button>
+            <button class="chart-modify">Modify</button>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright © UneWeb 2023</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js" integrity="sha512-dnUg2JxjlVoXHVdSMWDYm2Y5xcIrJg1N+juOuRi0yLVkku/g26rwHwysJDAMwahaDfRpr1AxFz43ktuMPr/l1A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>
