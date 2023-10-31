@@ -18,17 +18,13 @@ const myChart1= new Chart(document.getElementById('myChart1'), {
     }
 })
 
-const ctx2= document.getElementById('myChart2')
-const datos2= ['dato1', 'dato2', 'dato3', 'dato4', 'dato5']
-const values2= [24, 10, 54, 51, 15]
-
-const myChart2= new Chart(ctx2, {
+const myChart2= new Chart(document.getElementById('myChart2'), {
     type:'line',
     data: {
-        labels: datos2,
+        labels: ['dato1', 'dato2', 'dato3', 'dato4', 'dato5'],
         datasets: [{
             label:'value',
-            data: values2,
+            data: [24, 10, 54, 51, 15],
              backgroundColor: [
                  'rgba(213, 216, 0, 0.2)'
             ],
@@ -41,17 +37,13 @@ const myChart2= new Chart(ctx2, {
     }
 })
 
-const ctx3= document.getElementById('myChart3')
-const datos3= ['dato1', 'dato2', 'dato3', 'dato4', 'dato5']
-const values3= [24, 10, 54, 51, 15]
-
-const myChart3= new Chart(ctx3, {
+const myChart3= new Chart(document.getElementById('myChart3'), {
     type:'line',
     data: {
-        labels: datos3,
+        labels: ['dato1', 'dato2', 'dato3', 'dato4', 'dato5'],
         datasets: [{
             label:'value',
-            data: values3,
+            data: [24, 10, 54, 51, 15],
              backgroundColor: [
                  'rgba(3, 132, 16, 0.2)'
             ],
@@ -64,17 +56,13 @@ const myChart3= new Chart(ctx3, {
     }
 })
 
-const ctx4= document.getElementById('myChart4')
-const datos4= ['dato1', 'dato2', 'dato3', 'dato4', 'dato5']
-const values4= [24, 10, 54, 51, 15]
-
-const myChart4= new Chart(ctx4, {
+const myChart4= new Chart(document.getElementById('myChart4'), {
     type:'line',
     data: {
-        labels: datos4,
+        labels: ['dato1', 'dato2', 'dato3', 'dato4', 'dato5'],
         datasets: [{
             label:'value',
-            data: values4,
+            data: [24, 10, 54, 51, 15],
              backgroundColor: [
                  'rgba(66, 73, 136, 0.2)'
             ],
