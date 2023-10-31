@@ -17,7 +17,7 @@
     padding-top: 10px;
 }
 
-.hero-container .logo {
+.hero-container .logo a {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
@@ -26,6 +26,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    text-decoration: none;
 }
 
 .hero-container .logo img {
@@ -50,11 +51,6 @@ canvas {
 
 /******CHART******/
 
-.chart-container {
-    height: 450px;
-    margin-bottom: 40px;
-}
-
 .chart-container h2 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -69,7 +65,7 @@ canvas {
     max-width: 80%;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .chart-buttons {
@@ -112,7 +108,7 @@ canvas {
     cursor: pointer;
     border: none;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .tabs .controls button.active {
@@ -125,7 +121,7 @@ canvas {
     display: flex;
     flex-wrap: nowrap;
     transform: translateX(-0%);
-    transition: all 0.2s ease-in;
+    transition: all 0.4s ease-in;
 }
 
 .tabs .tabs-container .tab {
@@ -145,6 +141,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 
 footer p {

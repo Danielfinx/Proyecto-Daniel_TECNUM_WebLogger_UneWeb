@@ -1,3 +1,8 @@
+<?php
+    include "./php/conection.php";
+    include "./php/fetch.php"
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +15,7 @@
 
 <body>
     <div class="hero-container">
-        <div class="logo"><img src="./logo/bar-chart-675.svg" alt="Ball">WebLogger</div>
+        <div class="logo"><a href="./index.php"><img src="./logo/bar-chart-675.svg" alt="Ball">WebLogger</a></div>
         <div class="links">
             <a href="#" class="link-one">Link One</a>
             <a href="#" class="link-two">Link Two</a>
@@ -81,7 +86,7 @@
     <footer>
         <p>Copyright © UneWeb 2023</p>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js" integrity="sha512-dnUg2JxjlVoXHVdSMWDYm2Y5xcIrJg1N+juOuRi0yLVkku/g26rwHwysJDAMwahaDfRpr1AxFz43ktuMPr/l1A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/main.js"></script>
     <script src="./js/tabs.js"></script>
 </body>
