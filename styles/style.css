@@ -73,7 +73,7 @@ canvas {
     gap: 20px;
 }
 
-.chart-buttons button{
+.chart-buttons input{
     background-color: #1f2937;
     font-size: medium;
     color: #F9FAF8;
@@ -83,9 +83,9 @@ canvas {
     border-radius: 15%;
 }
 
-.chart-buttons button:hover {background-color: #455469}
+.chart-buttons input:hover {background-color: #455469}
 
-.chart-buttons button:active {
+.chart-buttons input:active {
   background-color: #455469;
   transform: translateY(4px);
 }
@@ -103,7 +103,7 @@ canvas {
 .tabs .controls button {
     flex: 1;
     background-color: #1f2937;
-    font-size: medium;
+    font-size: 14px;
     color: #F9FAF8;
     cursor: pointer;
     border: none;
@@ -112,9 +112,10 @@ canvas {
 }
 
 .tabs .controls button.active {
-    border-bottom:solid 7px #1f2937;
+    border: solid 4px #1f2937;
     color: #1F2937;
     background-color: #E5E7EB;
+    font-size: 16px;
 }
 
 .tabs .tabs-container {
@@ -122,6 +123,7 @@ canvas {
     flex-wrap: nowrap;
     transform: translateX(-0%);
     transition: all 0.4s ease-in;
+    margin-bottom: 15px;
 }
 
 .tabs .tabs-container .tab {
@@ -133,6 +135,10 @@ canvas {
     align-items: center;
 }
 
+/******FORMS******/
+
+
+
 /******FOOTER******/
 
 footer {
@@ -141,7 +147,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
     right: 0;
     left: 0;
     bottom: 0;
