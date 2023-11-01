@@ -38,27 +38,12 @@
                             <canvas id="myChart1" width="750"></canvas>
                         </section>
                     </div>
-                    <div class="chart-buttons">
-                        <input type="button" id="chart-add1" value="Add">
-                        <input type="button" id="chart-delete1" value="Delete">
-                        <input type="button" id="chart-modify1" value="Modify">
-                    </div>
-                    <div class="forms">
-                        <div id="form_1" style="display:none;">
-                            <h1>Form1</h1>
-                        </div>
-                    </div>
                 </div>
                 <div class="tab">
                     <div class="chart">
                         <section class="header-chart">
                             <canvas id="myChart2" width="750"></canvas>
                         </section>
-                    </div>
-                    <div class="chart-buttons">
-                        <input type="button" id="chart-add2" value="Add">
-                        <input type="button" id="chart-delete2" value="Delete">
-                        <input type="button" id="chart-modify2" value="Modify">
                     </div>
                 </div>
                 <div class="tab">
@@ -67,11 +52,6 @@
                             <canvas id="myChart3" width="750"></canvas>
                         </section>
                     </div>
-                    <div class="chart-buttons">
-                        <input type="button" id="chart-add3" value="Add">
-                        <input type="button" id="chart-delete3" value="Delete">
-                        <input type="button" id="chart-modify3" value="Modify">
-                    </div>
                 </div>
                 <div class="tab">
                     <div class="chart">
@@ -79,11 +59,42 @@
                             <canvas id="myChart4" width="750"></canvas>
                         </section>
                     </div>
-                    <div class="chart-buttons">
-                        <input type="button" id="chart-add4" value="Add">
-                        <input type="button" id="chart-delete4" value="Delete">
-                        <input type="button" id="chart-modify4" value="Modify">
-                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chart-forms">
+            <div class="chart-buttons">
+                <button id="chart-add">Add</button>
+                <button id="chart-delete">Delete</button>
+                <Button id="chart-modify">Modify</Button>
+            </div>
+            <div class="forms">
+                <div id="form_1" style="display:none;">
+                    <form id="formal" name= "formal" method= "post" action= "./php/insert.php">
+                        <table border= "1" style= "margin: 0 auto;">
+                            <th colspan= 2 >Añadir Dato</th>
+                            <tr><td>Sensor:</td><td align= "center">
+                                <select name="sensor" id="sensor">
+                                    <option value= 1 ><?php echo $tabLabel[1] ?></option>
+                                    <option value= 2 ><?php echo $tabLabel[2] ?></option>
+                                    <option value= 3 ><?php echo $tabLabel[3] ?></option>
+                                    <option value= 4 ><?php echo $tabLabel[4] ?></option>
+                                </select> <br>
+                            </td></tr>
+                            <tr><td>Valor:</td><td align= "center"><input type= "number" name= "value" id= "value"><br></td></tr>
+                            <tr><td>Fecha:</td><td align= "center"><input type= "date" name= "date" id= "date"><br></td></tr>
+                            <tr><td>Hora:</td><td align= "center"><input type= "time" name= "time" id= "time"><br></td></tr>
+                            <tr><td align= "center" ><input type="submit" id= "registrar" name= "registrar"></td>
+                            <td align= "center"><input type="reset" id= "limpiar" name= "limpiar"></td></tr>
+
+                        </table>
+                    </form>
+                </div>
+                <div id="form_2" style="display:none;">
+                    <h1>Form2</h1>
+                </div>
+                <div id="form_3" style="display:none;">
+                    <h1>Form3</h1>
                 </div>
             </div>
         </div>

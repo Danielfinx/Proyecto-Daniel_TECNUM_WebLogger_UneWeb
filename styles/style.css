@@ -49,47 +49,6 @@ canvas {
     max-width: 100%;
 }
 
-/******CHART******/
-
-.chart-container h2 {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-    flex: 1;
-    text-align: center;
-}
-
-.chart {
-    max-width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 40px;
-}
-
-.chart-buttons {
-    display: flex;
-    gap: 20px;
-}
-
-.chart-buttons input{
-    background-color: #1f2937;
-    font-size: medium;
-    color: #F9FAF8;
-    cursor: pointer;
-    border: none;
-    padding: 6px;
-    border-radius: 15%;
-}
-
-.chart-buttons input:hover {background-color: #455469}
-
-.chart-buttons input:active {
-  background-color: #455469;
-  transform: translateY(4px);
-}
-
 /******TABS******/
 
 .tabs {
@@ -123,7 +82,6 @@ canvas {
     flex-wrap: nowrap;
     transform: translateX(-0%);
     transition: all 0.4s ease-in;
-    margin-bottom: 15px;
 }
 
 .tabs .tabs-container .tab {
@@ -135,9 +93,64 @@ canvas {
     align-items: center;
 }
 
+/******CHART******/
+
+.chart-container h2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    flex: 1;
+    text-align: center;
+}
+
+.chart {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.chart-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.chart-buttons button{
+    background-color: #1f2937;
+    font-size: medium;
+    color: #F9FAF8;
+    cursor: pointer;
+    border: none;
+    padding: 6px;
+    border-radius: 15%;
+}
+
+.chart-buttons button:hover {background-color: #455469}
+
+.chart-buttons button:active {
+  background-color: #455469;
+  transform: translateY(4px);
+}
+
+.chart-buttons button.active {
+    background-color: #455469;
+}
+
 /******FORMS******/
 
+.chart-forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
+.chart-forms .forms div {
+    margin-top: 20px;
+}
 
 /******FOOTER******/
 
