@@ -9,6 +9,7 @@
 body {
     height: 100%;
     width: 100%;
+    background-color: rgb(230, 230, 206);
 }
 
 /******HERO******/
@@ -86,7 +87,6 @@ canvas {
     flex-wrap: nowrap;
     transform: translateX(-0%);
     transition: all 0.4s ease-in;
-    background-color: rgb(230, 230, 206);
 }
 
 .tabs .tabs-container .tab {
@@ -97,7 +97,6 @@ canvas {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(230, 230, 206);
 }
 
 /******CHART******/
@@ -110,7 +109,6 @@ canvas {
     color: #1F2937;
     flex: 1;
     text-align: center;
-    background-color: rgb(230, 230, 206);
 }
 
 .chart {
@@ -154,7 +152,6 @@ canvas {
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
-    background-color: rgb(230, 230, 206);
 }
 
 .chart-forms .forms div {
@@ -166,7 +163,6 @@ canvas {
 }
 
 .formTable {
-    background-color: rgb(230, 230, 206);
     border-collapse: collapse;
     border: solid 3px #070e18;
 }
@@ -215,7 +211,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: fixed;
     right: 0;
     left: 0;
     bottom: 0;
