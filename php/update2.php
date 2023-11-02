@@ -1,7 +1,7 @@
-<?php
+<?php 
     include "./conection.php";
 
-    $sql="INSERT INTO data values('','$_POST[sensor]','$_POST[value]','$_POST[date]', '$_POST[time]')";
+    $sql = "UPDATE data SET id_sensor='$_POST[sensor]', value='$_POST[value]',date='$_POST[date]',time='$_POST[time]' WHERE id= '$_POST[hidden]'";
     $result = mysqli_query($link, $sql); //ejecuto la consulta
 
     header('Location: ../index.php');
@@ -14,5 +14,5 @@
         <script>
             alert ("Ha Ocurrido Un Fallo En La Operación");
         </script>
-    <?php } 
+    <?php }
 ?>

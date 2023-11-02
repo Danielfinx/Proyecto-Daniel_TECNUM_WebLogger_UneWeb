@@ -161,10 +161,9 @@ canvas {
     margin-top: 20px;
 }
 
-#searchTable {
+#searchTable, #updateForm {
     margin-top: 20px;
 }
-
 /******FOOTER******/
 
 footer {
