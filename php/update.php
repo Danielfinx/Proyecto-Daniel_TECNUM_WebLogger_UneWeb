@@ -1,10 +1,10 @@
 <form method="post">
-    <table border="1" style="margin: 0 auto;">
+    <table border="1" style="margin: 0 auto;" class="formTable">
         <th colspan=2>Buscar Dato a Modificar</th>
         <tr>
             <td>Sensor:</td>
             <td align="center">
-                <select name="sensor_upd" id="sensor_upd">
+                <select name="sensor_upd" id="sensor_upd" class="field">
                     <option value=1><?php print $tabLabel[1] ?></option>
                     <option value=2><?php print $tabLabel[2] ?></option>
                     <option value=3><?php print $tabLabel[3] ?></option>
@@ -14,7 +14,7 @@
         </tr>
         <tr>
             <td>Valor:</td>
-            <td align="center"><input type="number" name="value_upd" id="value_upd"><br></td>
+            <td align="center"><input type="number" name="value_upd" id="value_upd" class="field"><br></td>
         </tr>
         <tr>
             <td align="center"><input type="submit" id="search" name="search" value="Buscar"></td>
@@ -25,12 +25,13 @@
 
 <?php
     if (isset($_POST['sensor_upd']) and isset($_POST['value_upd'])) { ?>
-        <table width="600" border="1" align="center" id="searchTable">
+        <table width="600" border="1" align="center" id="searchTable" class="formTable">
             <tr>
                 <th scope="col">SENSOR</th>
                 <th scope="col">VALOR</th>
                 <th scope="col">FECHA</th>
                 <th scope="col">HORA</th>
+                <th scope="col"></th>
             </tr>
             <?php
             $sql = "SELECT * FROM weblogger_crud_uneweb.sensor
@@ -72,12 +73,12 @@
         $ver = mysqli_fetch_array($result);  ?>
 
         <form method="post" action="./php/update2.php" id="updateForm">
-            <table border="1" style="margin: 0 auto;">
+            <table border="1" style="margin: 0 auto;" class="formTable">
                 <th colspan=2>Modificar Dato</th>
                 <tr>
                     <td>Sensor:</td>
                     <td align="center">
-                        <select name="sensor" id="sensor">
+                        <select name="sensor" id="sensor" class="field">
                             <option value=<?php print $ver[0] ?> ><?php print ucwords($ver[1]); ?></option>
                             <option value=1 ><?php print $tabLabel[1] ?></option>
                             <option value=2 ><?php print $tabLabel[2] ?></option>
@@ -88,15 +89,15 @@
                 </tr>
                 <tr>
                     <td>Valor:</td>
-                    <td align="center"><input type="number" name="value" id="value" value="<?php print $ver[8]; ?>"><br></td>
+                    <td align="center"><input type="number" name="value" id="value" value="<?php print $ver[8]; ?>" class="field"><br></td>
                 </tr>
                 <tr>
                     <td>Fecha:</td>
-                    <td align="center"><input type="date" name="date" id="date" value="<?php print $ver[9]; ?>"><br></td>
+                    <td align="center"><input type="date" name="date" id="date" value="<?php print $ver[9]; ?>" class="field"><br></td>
                 </tr>
                 <tr>
                     <td>Hora:</td>
-                    <td align="center"><input type="time" name="time" id="time" step="2" value="<?php print $ver[10]; ?>"><br></td>
+                    <td align="center"><input type="time" name="time" id="time" step="2" value="<?php print $ver[10]; ?>" class="field"><br></td>
                 </tr>
                 <input type="hidden" name="hidden" id="hidden" value="<?php print $ver[6]; ?>" />
                 <tr>

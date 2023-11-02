@@ -1,10 +1,10 @@
 <form name="form" method="post">
-    <table border="1" style="margin: 0 auto;">
+    <table border="1" style="margin: 0 auto;" class="formTable">
         <th colspan=2>Buscar Dato a Eliminar</th>
         <tr>
             <td>Sensor:</td>
             <td align="center">
-                <select name="sensor_dlt" id="sensor_dlt">
+                <select name="sensor_dlt" id="sensor_dlt" class="field">
                     <option value=1><?php print $tabLabel[1] ?></option>
                     <option value=2><?php print $tabLabel[2] ?></option>
                     <option value=3><?php print $tabLabel[3] ?></option>
@@ -14,7 +14,7 @@
         </tr>
         <tr>
             <td>Valor:</td>
-            <td align="center"><input type="number" name="value_dlt" id="value_dlt"><br></td>
+            <td align="center"><input type="number" name="value_dlt" id="value_dlt" class="field"><br></td>
         </tr>
         <tr>
             <td align="center"><input type="submit" id="search" name="search" value="Buscar"></td>
@@ -25,12 +25,13 @@
 
 <?php
     if (isset($_POST['sensor_dlt']) and isset($_POST['value_dlt'])) { ?>
-        <table width="600" border="1" align="center" id="searchTable">
+        <table width="600" border="1" align="center" id="searchTable" class="formTable">
             <tr>
                 <th scope="col">SENSOR</th>
                 <th scope="col">VALOR</th>
                 <th scope="col">FECHA</th>
                 <th scope="col">HORA</th>
+                <th scope="col"></th>
             </tr>
             <?php
                 $sql = "SELECT * FROM weblogger_crud_uneweb.sensor
@@ -46,7 +47,7 @@
                         <td><?php print $ver[8]; ?></td>
                         <td><?php print $ver[9]; ?></td>
                         <td><?php print $ver[10]; ?></td>
-                        <td><a href="./php/delete2.php?dlt=<?php print $ver[6]; ?> ">Eliminar</a></td>
+                        <td><a href="./php/delete2.php?dlt=<?php print $ver[6]; ?>" id="delete" >Eliminar</a></td>
                     </tr>
                 <?php }
             ?>
