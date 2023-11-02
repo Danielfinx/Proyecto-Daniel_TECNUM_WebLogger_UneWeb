@@ -1,6 +1,6 @@
 <form method="post">
     <table border="1" style="margin: 0 auto;">
-        <th colspan=2>Modificar Dato</th>
+        <th colspan=2>Buscar Dato a Modificar</th>
         <tr>
             <td>Sensor:</td>
             <td align="center">
@@ -34,10 +34,10 @@
             </tr>
             <?php
             $sql = "SELECT * FROM weblogger_crud_uneweb.sensor
-                    INNER JOIN weblogger_crud_uneweb.data
-                    ON sensor.id = data.id_sensor
-                    WHERE data.id_sensor= '$_POST[sensor_upd]' 
-                    AND data.value= '$_POST[value_upd]'";
+            INNER JOIN weblogger_crud_uneweb.data
+            ON sensor.id = data.id_sensor
+            WHERE data.id_sensor= '$_POST[sensor_upd]' 
+            AND data.value= '$_POST[value_upd]'";
 
             $result = mysqli_query($link, $sql); //ejecuto la consulta
             while ($ver = mysqli_fetch_array($result)) { ?>

@@ -1,6 +1,6 @@
 <form name="form" method="post">
     <table border="1" style="margin: 0 auto;">
-        <th colspan=2>Eliminar Dato</th>
+        <th colspan=2>Buscar Dato a Eliminar</th>
         <tr>
             <td>Sensor:</td>
             <td align="center">
@@ -33,10 +33,10 @@ if (isset($_POST['sensor']) and isset($_POST['value'])) { ?>
         </tr>
         <?php
         $sql = "SELECT * FROM weblogger_crud_uneweb.sensor
-                                    INNER JOIN weblogger_crud_uneweb.data
-                                    ON sensor.id = data.id_sensor
-                                    WHERE data.id_sensor= '$_POST[sensor]' 
-                                    AND data.value= '$_POST[value]'";
+                INNER JOIN weblogger_crud_uneweb.data
+                ON sensor.id = data.id_sensor
+                WHERE data.id_sensor= '$_POST[sensor]' 
+                AND data.value= '$_POST[value]'";
         $result = mysqli_query($link, $sql); //ejecuto la consulta
         while ($ver = mysqli_fetch_array($result)) { ?>
             <tr>
