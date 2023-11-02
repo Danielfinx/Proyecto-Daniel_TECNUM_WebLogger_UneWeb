@@ -26,10 +26,10 @@
         <h2>CHART</h2>
         <div class="tabs">
             <div class="controls">
-                <button class="active"><?php echo $tabLabel[1] ?></button>
-                <button><?php echo $tabLabel[2] ?></button>
-                <button><?php echo $tabLabel[3] ?></button>
-                <button><?php echo $tabLabel[4] ?></button>
+                <button class="active"><?php print $tabLabel[1] ?></button>
+                <button><?php print $tabLabel[2] ?></button>
+                <button><?php print $tabLabel[3] ?></button>
+                <button><?php print $tabLabel[4] ?></button>
             </div>
             <div class="tabs-container">
                 <div class="tab">
@@ -64,9 +64,9 @@
         </div>
         <div class="chart-forms">
             <div class="chart-buttons">
-                <button id="chart-add">Add</button>
-                <button id="chart-delete">Delete</button>
-                <Button id="chart-modify">Modify</Button>
+                <button id="chart-add">Añadir</button>
+                <button id="chart-delete">Eliminar</button>
+                <Button id="chart-modify">Modificar</Button>
             </div>
             <div class="forms">
                 <div id="form_1" style="display:none;">
@@ -75,17 +75,17 @@
                             <th colspan= 2 >Añadir Dato</th>
                             <tr><td>Sensor:</td><td align= "center">
                                 <select name="sensor" id="sensor">
-                                    <option value= 1 ><?php echo $tabLabel[1] ?></option>
-                                    <option value= 2 ><?php echo $tabLabel[2] ?></option>
-                                    <option value= 3 ><?php echo $tabLabel[3] ?></option>
-                                    <option value= 4 ><?php echo $tabLabel[4] ?></option>
+                                    <option value= 1 ><?php print $tabLabel[1] ?></option>
+                                    <option value= 2 ><?php print $tabLabel[2] ?></option>
+                                    <option value= 3 ><?php print $tabLabel[3] ?></option>
+                                    <option value= 4 ><?php print $tabLabel[4] ?></option>
                                 </select> <br>
                             </td></tr>
-                            <tr><td>Valor:</td><td align= "center"><input type= "number" name= "value" id= "value"><br></td></tr>
-                            <tr><td>Fecha:</td><td align= "center"><input type= "date" name= "date" id= "date"><br></td></tr>
-                            <tr><td>Hora:</td><td align= "center"><input type= "time" name= "time" id= "time"><br></td></tr>
+                            <tr><td>Valor:</td><td align= "center" ><input type= "number" name= "value" id= "value"><br></td></tr>
+                            <tr><td>Fecha:</td><td align= "center" ><input type= "date" name= "date" id= "date"><br></td></tr>
+                            <tr><td>Hora:</td><td align= "center" ><input type= "time" name= "time" id= "time"><br></td></tr>
                             <tr><td align= "center" ><input type="submit" id= "registrar" name= "registrar"></td>
-                            <td align= "center"><input type="reset" id= "limpiar" name= "limpiar"></td></tr>
+                            <td align= "center" ><input type="reset" id= "limpiar" name= "limpiar"></td></tr>
 
                         </table>
                     </form>

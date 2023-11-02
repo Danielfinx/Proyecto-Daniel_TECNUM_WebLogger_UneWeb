@@ -6,11 +6,11 @@
     
     if (!mysqli_error($link)){ ?>
         <script>
-            alert("Se ingreso con total normalidad");
+            alert("Operación Realizada Correctamente");
         </script> }
     <?php }else{ ?>
         <script>
-            alert ("Estamos en mantenimiento preventivo");
+            alert ("Ha Ocurrido Un Fallo En La Operación");
         </script>
     <?php } 
 ?>
