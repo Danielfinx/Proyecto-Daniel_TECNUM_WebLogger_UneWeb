@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
     $("#chart-add").click(function () {
-        $("#form_1").each(function () {
+        $("#insert_form").each(function () {
             displaying = $(this).css("display");
             if (displaying == "block") {
                 $(this).fadeOut('fast', function () {
@@ -14,7 +14,7 @@ $(document).ready(function () {
             }
         });
 
-        $("#form_2").each(function () {
+        $("#delete_form").each(function () {
             displaying = $(this).css("display");
             if (displaying == "block") {
                 $(this).fadeOut('fast', function () {
@@ -23,7 +23,7 @@ $(document).ready(function () {
             }
         });
 
-        $("#form_3").each(function () {
+        $("#modify_form").each(function () {
             displaying = $(this).css("display");
             if (displaying == "block") {
                 $(this).fadeOut('fast', function () {
@@ -36,7 +36,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $("#chart-delete").click(function () {
-        $("#form_2").each(function () {
+        $("#delete_form").each(function () {
             displaying = $(this).css("display");
             if (displaying == "block") {
                 $(this).fadeOut('fast', function () {
@@ -49,7 +49,7 @@ $(document).ready(function () {
             }
         });
 
-        $("#form_1").each(function () {
+        $("#insert_form").each(function () {
             displaying = $(this).css("display");
             if (displaying == "block") {
                 $(this).fadeOut('fast', function () {
@@ -58,7 +58,7 @@ $(document).ready(function () {
             }
         });
 
-        $("#form_3").each(function () {
+        $("#modify_form").each(function () {
             displaying = $(this).css("display");
             if (displaying == "block") {
                 $(this).fadeOut('fast', function () {
@@ -71,7 +71,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $("#chart-modify").click(function () {
-        $("#form_3").each(function () {
+        $("#modify_form").each(function () {
             displaying = $(this).css("display");
             if (displaying == "block") {
                 $(this).fadeOut('fast', function () {
@@ -84,7 +84,7 @@ $(document).ready(function () {
             }
         });
 
-        $("#form_1").each(function () {
+        $("#insert_form").each(function () {
             displaying = $(this).css("display");
             if (displaying == "block") {
                 $(this).fadeOut('fast', function () {
@@ -93,7 +93,7 @@ $(document).ready(function () {
             }
         });
 
-        $("#form_2").each(function () {
+        $("#delete_form").each(function () {
             displaying = $(this).css("display");
             if (displaying == "block") {
                 $(this).fadeOut('fast', function () {
