@@ -1,6 +1,6 @@
 <form name="form" method="post">
     <table border="1" style="margin: 0 auto;">
-        <th colspan=2>Eliminar Dato</th>
+        <th colspan=2>Buscar Dato a Eliminar</th>
         <tr>
             <td>Sensor:</td>
             <td align="center">
