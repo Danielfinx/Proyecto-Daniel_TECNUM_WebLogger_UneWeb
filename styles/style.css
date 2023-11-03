@@ -170,12 +170,12 @@ canvas {
 
 .formTable {
     border-collapse: collapse;
-    border: solid 3px #070e18;
+    border: solid 4px #070e18;
 }
 
 .formTable th, td {
     border: none;
-    padding: 6px;
+    padding: 10px;
     text-align: center;
 }
 

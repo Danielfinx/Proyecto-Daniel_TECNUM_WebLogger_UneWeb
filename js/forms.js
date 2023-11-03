@@ -106,3 +106,9 @@ $(document).ready(function () {
         });
     });
 });
+
+if (($("#insert_form").css("display") == "block") 
+|| ($("#delete_form").css("display") == "block") 
+|| ($("#modify_form").css("display") == "block")) {
+    window.scrollTo(0, document.body.scrollHeight);
+}

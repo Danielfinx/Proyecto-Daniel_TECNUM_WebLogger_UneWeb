@@ -25,6 +25,9 @@
 
 <?php
     if (isset($_POST['sensor_dlt']) and isset($_POST['value_dlt'])) { ?>
+        <script>
+            document.getElementById('delete_form').style.display = 'block';
+        </script>
         <table width="600" border="1" align="center" id="searchTable" class="formTable">
             <tr>
                 <th scope="col">SENSOR</th>
@@ -52,8 +55,5 @@
                 <?php }
             ?>
         </table>
-        <script>
-            document.getElementById('delete_form').style.display = 'block';
-        </script>
     <?php }
 ?>

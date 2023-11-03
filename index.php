@@ -68,7 +68,7 @@
                 <button id="chart-delete">Eliminar</button>
                 <Button id="chart-modify">Modificar</Button>
             </div>
-            <div class="forms">
+            <div class="forms" id= "scrollDiv">
                 <div id="insert_form" style="display:none;">
                     <?php
                         include ("./php/insert.php");
