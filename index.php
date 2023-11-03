@@ -23,7 +23,6 @@
         </div>
     </div>
     <div class="chart-container">
-        <h2>CHART</h2>
         <div class="tabs">
             <div class="controls">
                 <button class="active"><?php print $tabLabel[1] ?></button>

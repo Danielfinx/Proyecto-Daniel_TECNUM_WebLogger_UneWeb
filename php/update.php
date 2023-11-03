@@ -14,7 +14,7 @@
         </tr>
         <tr>
             <td>Valor:</td>
-            <td align="center"><input type="number" name="value_upd" id="value_upd" class="field"><br></td>
+            <td align="center"><input type="number" step="0.01" name="value_upd" id="value_upd" class="field"><br></td>
         </tr>
         <tr>
             <td align="center"><input type="submit" id="search" name="search" value="Buscar"></td>
@@ -89,7 +89,7 @@
                 </tr>
                 <tr>
                     <td>Valor:</td>
-                    <td align="center"><input type="number" name="value" id="value" value="<?php print $ver[8]; ?>" class="field"><br></td>
+                    <td align="center"><input type="number" step="0.01" name="value" id="value" value="<?php print $ver[8]; ?>" class="field"><br></td>
                 </tr>
                 <tr>
                     <td>Fecha:</td>
@@ -97,7 +97,7 @@
                 </tr>
                 <tr>
                     <td>Hora:</td>
-                    <td align="center"><input type="time" name="time" id="time" step="2" value="<?php print $ver[10]; ?>" class="field"><br></td>
+                    <td align="center"><input type="time" name="time" id="time" step="1" value="<?php print $ver[10]; ?>" class="field"><br></td>
                 </tr>
                 <input type="hidden" name="hidden" id="hidden" value="<?php print $ver[6]; ?>" />
                 <tr>

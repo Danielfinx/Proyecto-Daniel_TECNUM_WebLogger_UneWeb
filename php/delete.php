@@ -14,7 +14,7 @@
         </tr>
         <tr>
             <td>Valor:</td>
-            <td align="center"><input type="number" name="value_dlt" id="value_dlt" class="field"><br></td>
+            <td align="center"><input type="number" step="0.01" name="value_dlt" id="value_dlt" class="field"><br></td>
         </tr>
         <tr>
             <td align="center"><input type="submit" id="search" name="search" value="Buscar"></td>

@@ -14,7 +14,7 @@
         </tr>
         <tr>
             <td>Valor:</td>
-            <td align="center"><input type="number" name="value" id="value" class="field"><br></td>
+            <td align="center"><input type="number" step="0.01" name="value" id="value" class="field"><br></td>
         </tr>
         <tr>
             <td>Fecha:</td>
@@ -22,7 +22,7 @@
         </tr>
         <tr>
             <td>Hora:</td>
-            <td align="center"><input type="time" name="time" id="time" step="2" class="field"><br></td>
+            <td align="center"><input type="time" name="time" id="time" step="1" class="field"><br></td>
         </tr>
         <tr>
             <td align="center"><input type="submit" id="insert" name="insert" value="Insertar"></td>

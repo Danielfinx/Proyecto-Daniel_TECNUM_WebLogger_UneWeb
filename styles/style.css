@@ -73,6 +73,7 @@ canvas {
 
 .tabs .controls button {
     flex: 1;
+    padding: 2px;
     background-color: #1f2937;
     font-size: 14px;
     color: #F9FAF8;
@@ -84,7 +85,7 @@ canvas {
 .tabs .controls button.active {
     color: #1F2937;
     background-color: #E5E7EB;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .tabs .tabs-container {
@@ -105,17 +106,6 @@ canvas {
 }
 
 /******CHART******/
-
-.chart-container h2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-    flex: 1;
-    text-align: center;
-    display: none;
-}
 
 .chart {
     max-width: 80%;
