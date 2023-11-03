@@ -10,6 +10,7 @@ $(document).ready(function () {
             } else {
                 $(this).delay(150).fadeIn('fast', function () {
                     $(this).css("display", "block");
+                    window.scrollTo(0, document.body.scrollHeight);
                 });
             }
         });
@@ -45,6 +46,7 @@ $(document).ready(function () {
             } else {
                 $(this).delay(150).fadeIn('fast', function () {
                     $(this).css("display", "block");
+                    window.scrollTo(0, document.body.scrollHeight);
                 });
             }
         });
@@ -80,6 +82,7 @@ $(document).ready(function () {
             } else {
                 $(this).delay(150).fadeIn('fast', function () {
                     $(this).css("display", "block");
+                    window.scrollTo(0, document.body.scrollHeight);
                 });
             }
         });
