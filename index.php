@@ -29,6 +29,9 @@
                 <button><?php print $tabLabel[2] ?></button>
                 <button><?php print $tabLabel[3] ?></button>
                 <button><?php print $tabLabel[4] ?></button>
+                <button><?php print $tabLabel[5] ?></button>
+                <button><?php print $tabLabel[6] ?></button>
+                <button><?php print $tabLabel[7] ?></button>
             </div>
             <div class="tabs-container">
                 <div class="tab">
@@ -56,6 +59,27 @@
                     <div class="chart">
                         <section class="header-chart">
                             <canvas id="myChart4" width="750"></canvas>
+                        </section>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="chart">
+                        <section class="header-chart">
+                            <canvas id="myChart5" width="750"></canvas>
+                        </section>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="chart">
+                        <section class="header-chart">
+                            <canvas id="myChart6" width="750"></canvas>
+                        </section>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="chart">
+                        <section class="header-chart">
+                            <canvas id="myChart7" width="750"></canvas>
                         </section>
                     </div>
                 </div>

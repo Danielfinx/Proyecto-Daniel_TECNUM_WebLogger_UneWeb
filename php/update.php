@@ -9,6 +9,9 @@
                     <option value=2><?php print $tabLabel[2] ?></option>
                     <option value=3><?php print $tabLabel[3] ?></option>
                     <option value=4><?php print $tabLabel[4] ?></option>
+                    <option value=2><?php print $tabLabel[5] ?></option>
+                    <option value=3><?php print $tabLabel[6] ?></option>
+                    <option value=4><?php print $tabLabel[7] ?></option>
                 </select> <br>
             </td>
         </tr>
@@ -47,7 +50,7 @@
                         <input type="hidden" name="hidden_upd" id="hidden_upd" value="<?php print $ver[6]; ?>" />
                         <td><?php print ucwords($ver[1]); ?></td>
                         <td><?php print $ver[8]; ?></td>
-                        <td><?php print $ver[9]; ?></td>
+                        <td><?php print date('d-m-Y', strtotime($ver[9])); ?></td>
                         <td><?php print $ver[10]; ?></td>
                         <td><input type="submit" id="update" name="update" value="Modificar"></td>
                     </tr>
@@ -80,10 +83,13 @@
                     <td align="center">
                         <select name="sensor" id="sensor" class="field">
                             <option value=<?php print $ver[0] ?> ><?php print ucwords($ver[1]); ?></option>
-                            <option value=1 ><?php print $tabLabel[1] ?></option>
-                            <option value=2 ><?php print $tabLabel[2] ?></option>
-                            <option value=3 ><?php print $tabLabel[3] ?></option>
-                            <option value=4 ><?php print $tabLabel[4] ?></option>
+                            <option value=1><?php print $tabLabel[1] ?></option>
+                            <option value=2><?php print $tabLabel[2] ?></option>
+                            <option value=3><?php print $tabLabel[3] ?></option>
+                            <option value=4><?php print $tabLabel[4] ?></option>
+                            <option value=2><?php print $tabLabel[5] ?></option>
+                            <option value=3><?php print $tabLabel[6] ?></option>
+                            <option value=4><?php print $tabLabel[7] ?></option>
                         </select> <br>
                     </td>
                 </tr>
