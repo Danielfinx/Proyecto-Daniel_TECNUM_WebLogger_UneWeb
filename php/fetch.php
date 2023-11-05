@@ -36,6 +36,11 @@
 ?>
 
 <script>
+    // info for all charts in json for JS
+    const value_C= <?php echo json_encode($value) ?>;
+    const labelAxis_C= <?php echo json_encode($labelAxis) ?>;
+    const descriptionLabel_C= <?php echo json_encode($descriptionLabel) ?>;
+
     // info for the 1st chart in json for JS
     const value_C1= <?php echo json_encode($value[1]) ?>;
     const labelAxis_C1= <?php echo json_encode($labelAxis[1]) ?>;
@@ -46,13 +51,28 @@
     const labelAxis_C2= <?php echo json_encode($labelAxis[2]) ?>;
     const descriptionLabel_C2= <?php echo json_encode($descriptionLabel[2]) ?>;
     
-    // info for the 2nd chart in json for JS
+    // info for the 3rd chart in json for JS
     const value_C3= <?php echo json_encode($value[3]) ?>;
     const labelAxis_C3= <?php echo json_encode($labelAxis[3]) ?>;
     const descriptionLabel_C3= <?php echo json_encode($descriptionLabel[3]) ?>;
 
-    // info for the 2nd chart in json for JS
+    // info for the 4th chart in json for JS
     const value_C4= <?php echo json_encode($value[4]) ?>;
     const labelAxis_C4= <?php echo json_encode($labelAxis[4]) ?>;
     const descriptionLabel_C4= <?php echo json_encode($descriptionLabel[4]) ?>;
+
+    // info for the 5th chart in json for JS
+    const value_C5= <?php echo json_encode($value[5]) ?>;
+    const labelAxis_C5= <?php echo json_encode($labelAxis[5]) ?>;
+    const descriptionLabel_C5= <?php echo json_encode($descriptionLabel[5]) ?>;
+
+    // info for the 6th chart in json for JS
+    const value_C6= <?php echo json_encode($value[6]) ?>;
+    const labelAxis_C6= <?php echo json_encode($labelAxis[6]) ?>;
+    const descriptionLabel_C6= <?php echo json_encode($descriptionLabel[6]) ?>;
+
+    // info for the 7th chart in json for JS
+    const value_C7= <?php echo json_encode($value[7]) ?>;
+    const labelAxis_C7= <?php echo json_encode($labelAxis[7]) ?>;
+    const descriptionLabel_C7= <?php echo json_encode($descriptionLabel[7]) ?>;
 </script>
