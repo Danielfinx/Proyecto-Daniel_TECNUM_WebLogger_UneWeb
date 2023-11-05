@@ -49,7 +49,7 @@ const myChart4= new Chart(document.getElementById('myChart4'), {
             label: descriptionLabel_C[4],
             data: value_C[4],
              backgroundColor: 'rgba(66, 73, 136, 0.2)',
-             borderColor: 'rgba(66, 73, 136, 1)',
+             borderColor: 'rgb(66, 73, 136)',
             borderWidth: 1.5
         }]
     }
@@ -62,8 +62,8 @@ const myChart5= new Chart(document.getElementById('myChart5'), {
         datasets: [{
             label: descriptionLabel_C[5],
             data: value_C[5],
-             backgroundColor: 'rgba(66, 73, 136, 0.2)',
-             borderColor: 'rgba(66, 73, 136, 1)',
+             backgroundColor: 'rgba(,232, 83, 14, 0.2)',
+             borderColor: 'rgb(232, 83, 14)',
             borderWidth: 1.5
         }]
     }
@@ -76,8 +76,8 @@ const myChart6= new Chart(document.getElementById('myChart6'), {
         datasets: [{
             label: descriptionLabel_C[6],
             data: value_C[6],
-             backgroundColor: 'rgba(66, 73, 136, 0.2)',
-             borderColor: 'rgba(66, 73, 136, 1)',
+             backgroundColor: 'rgba(138, 232, 14, 0.2)',
+             borderColor: 'rgb(138, 232, 14)',
             borderWidth: 1.5
         }]
     }
@@ -90,8 +90,8 @@ const myChart7= new Chart(document.getElementById('myChart7'), {
         datasets: [{
             label: descriptionLabel_C[7],
             data: value_C[7],
-             backgroundColor: 'rgba(66, 73, 136, 0.2)',
-             borderColor: 'rgba(66, 73, 136, 1)',
+             backgroundColor: 'rgba(119, 63, 210, 0.2)',
+             borderColor: 'rgb(119, 63, 210)',
             borderWidth: 1.5
         }]
     }
