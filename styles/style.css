@@ -58,10 +58,6 @@ body {
 
 /******TABS******/
 
-canvas {
-    max-width: 100%;
-}
-
 .tabs {
     overflow: hidden;
 }
@@ -97,6 +93,7 @@ canvas {
 
 .tabs .tabs-container .tab {
     padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
     flex-shrink: 0;
     display: flex;
@@ -106,12 +103,9 @@ canvas {
 }
 
 /******CHART******/
-
-.chart {
-    max-width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 25px;
+.chartBox {
+    width: 900px;
+    max-width: 70%;
 }
 
 .chart-buttons {

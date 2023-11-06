@@ -35,52 +35,38 @@
             </div>
             <div class="tabs-container">
                 <div class="tab">
-                    <div class="chart">
-                        <section class="header-chart">
-                            <canvas id="myChart1" width="750"></canvas>
-                        </section>
+                    <div class="chartBox">
+                        <canvas id="myChart1"></canvas>
                     </div>
                 </div>
                 <div class="tab">
-                    <div class="chart">
-                        <section class="header-chart">
-                            <canvas id="myChart2" width="750"></canvas>
-                        </section>
+                    <div class="chartBox">    
+                        <canvas id="myChart2"></canvas>
                     </div>
                 </div>
                 <div class="tab">
-                    <div class="chart">
-                        <section class="header-chart">
-                            <canvas id="myChart3" width="750"></canvas>
-                        </section>
+                    <div class="chartBox">
+                        <canvas id="myChart3"></canvas>
                     </div>
                 </div>
                 <div class="tab">
-                    <div class="chart">
-                        <section class="header-chart">
-                            <canvas id="myChart4" width="750"></canvas>
-                        </section>
+                    <div class="chartBox">
+                        <canvas id="myChart4"></canvas>
                     </div>
                 </div>
                 <div class="tab">
-                    <div class="chart">
-                        <section class="header-chart">
-                            <canvas id="myChart5" width="750"></canvas>
-                        </section>
+                    <div class="chartBox">
+                        <canvas id="myChart5"></canvas>
                     </div>
                 </div>
                 <div class="tab">
-                    <div class="chart">
-                        <section class="header-chart">
-                            <canvas id="myChart6" width="750"></canvas>
-                        </section>
+                    <div class="chartBox">
+                        <canvas id="myChart6"></canvas>
                     </div>
                 </div>
                 <div class="tab">
-                    <div class="chart">
-                        <section class="header-chart">
-                            <canvas id="myChart7" width="750"></canvas>
-                        </section>
+                    <div class="chartBox">
+                        <canvas id="myChart7"></canvas>
                     </div>
                 </div>
             </div>
