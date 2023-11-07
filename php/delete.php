@@ -50,10 +50,10 @@
                 while ($ver = mysqli_fetch_array($result)) { ?>
                     <tr>
                         <td><?php print ucwords($ver[1]); ?></td>
+                        <td><?php print $ver[6]; ?></td>
+                        <td><?php print date('d-m-Y', strtotime($ver[7])); ?></td>
                         <td><?php print $ver[8]; ?></td>
-                        <td><?php print date('d-m-Y', strtotime($ver[9])); ?></td>
-                        <td><?php print $ver[10]; ?></td>
-                        <td><a href="./php/delete2.php?dlt=<?php print $ver[6]; ?>" id="delete" >Eliminar</a></td>
+                        <td><a href="./php/delete2.php?dlt=<?php print $ver[4]; ?>" id="delete" >Eliminar</a></td>
                     </tr>
                 <?php }
             ?>

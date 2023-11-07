@@ -47,11 +47,11 @@
             while ($ver = mysqli_fetch_array($result)) { ?>
                 <form method="post">
                     <tr>
-                        <input type="hidden" name="hidden_upd" id="hidden_upd" value="<?php print $ver[6]; ?>" />
+                        <input type="hidden" name="hidden_upd" id="hidden_upd" value="<?php print $ver[4]; ?>" />
                         <td><?php print ucwords($ver[1]); ?></td>
+                        <td><?php print $ver[6]; ?></td>
+                        <td><?php print date('d-m-Y', strtotime($ver[7])); ?></td>
                         <td><?php print $ver[8]; ?></td>
-                        <td><?php print date('d-m-Y', strtotime($ver[9])); ?></td>
-                        <td><?php print $ver[10]; ?></td>
                         <td><input type="submit" id="update" name="update" value="Modificar"></td>
                     </tr>
                 </form>
@@ -95,17 +95,17 @@
                 </tr>
                 <tr>
                     <td>Valor:</td>
-                    <td align="center"><input type="number" step="0.01" name="value" id="value" value="<?php print $ver[8]; ?>" class="field"><br></td>
+                    <td align="center"><input type="number" step="0.01" name="value" id="value" value="<?php print $ver[6]; ?>" class="field"><br></td>
                 </tr>
                 <tr>
                     <td>Fecha:</td>
-                    <td align="center"><input type="date" name="date" id="date" value="<?php print $ver[9]; ?>" class="field"><br></td>
+                    <td align="center"><input type="date" name="date" id="date" value="<?php print $ver[7]; ?>" class="field"><br></td>
                 </tr>
                 <tr>
                     <td>Hora:</td>
-                    <td align="center"><input type="time" name="time" id="time" step="1" value="<?php print $ver[10]; ?>" class="field"><br></td>
+                    <td align="center"><input type="time" name="time" id="time" step="1" value="<?php print $ver[8]; ?>" class="field"><br></td>
                 </tr>
-                <input type="hidden" name="hidden" id="hidden" value="<?php print $ver[6]; ?>" />
+                <input type="hidden" name="hidden" id="hidden" value="<?php print $ver[4]; ?>" />
                 <tr>
                     <td align="center"><input type="submit" id="update" name="update" value="Modificar"></td>
                     <td align="center"><input type="reset" id="reset" name="reset"></td>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 03-11-2023 a las 03:05:50
+-- Tiempo de generación: 07-11-2023 a las 14:45:42
 -- Versión del servidor: 8.0.31
 -- Versión de PHP: 8.0.26
 
@@ -31,7 +31,7 @@ DROP TABLE IF EXISTS `data`;
 CREATE TABLE IF NOT EXISTS `data` (
   `id` int NOT NULL AUTO_INCREMENT,
   `id_sensor` int DEFAULT NULL,
-  `value` float DEFAULT NULL,
+  `value` double DEFAULT NULL,
   `date` date NOT NULL,
   `time` time NOT NULL,
   PRIMARY KEY (`id`),
@@ -47,11 +47,9 @@ CREATE TABLE IF NOT EXISTS `data` (
 DROP TABLE IF EXISTS `sensor`;
 CREATE TABLE IF NOT EXISTS `sensor` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `parameter_name` varchar(20) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `parameter_name` varchar(25) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
   `abbreviation` varchar(5) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
   `unit` varchar(5) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-  `val_max` float DEFAULT NULL,
-  `val_min` float DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 COMMIT;
