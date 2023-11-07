@@ -46,13 +46,16 @@
             $result = mysqli_query($link, $sql); //ejecuto la consulta
             if ($result->num_rows > 0) {
                 while ($ver = mysqli_fetch_array($result)) { ?>
-                    <tr>
-                        <td><?php print ucwords($ver[1]); ?></td>
-                        <td><?php print $ver[6]; ?></td>
-                        <td><?php print date('d-m-Y', strtotime($ver[7])); ?></td>
-                        <td><?php print $ver[8]; ?></td>
-                        <td><a href="./php/delete2.php?dlt=<?php print $ver[4]; ?>" id="delete" >Eliminar</a></td>
-                    </tr>
+                    <form method="post">
+                        <tr>
+                            <input type="hidden" name="hidden_upd" id="hidden_upd" value="<?php print $ver[4]; ?>" />
+                            <td><?php print ucwords($ver[1]); ?></td>
+                            <td><?php print $ver[6]; ?></td>
+                            <td><?php print date('d-m-Y', strtotime($ver[7])); ?></td>
+                            <td><?php print $ver[8]; ?></td>
+                            <td><input type="submit" id="update" name="update" value="Modificar"></td>
+                        </tr>
+                    </form>
                 <?php }
             } else {
                 ?>
