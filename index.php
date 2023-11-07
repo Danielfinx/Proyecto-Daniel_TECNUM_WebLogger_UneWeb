@@ -15,12 +15,7 @@
 
 <body>
     <div class="hero-container">
-        <div class="logo"><a href="./index.php"><img src="./img/bar-chart-675.svg" alt="Ball">WebLogger</a></div>
-        <div class="links">
-            <a href="#" class="link-one">Link One</a>
-            <a href="#" class="link-two">Link Two</a>
-            <a href="#" class="link-three">Link Three</a>
-        </div>
+        <div class="logo"><a href="./index.php"><img src="./img/bar-chart-675.svg" alt="weblogger">WebLogger</a></div>
     </div>
     <div class="chart-container">
         <div class="tabs">
@@ -76,6 +71,7 @@
                 <button id="chart-add">Añadir</button>
                 <button id="chart-delete">Eliminar</button>
                 <Button id="chart-modify">Modificar</Button>
+                <Button onclick="resetZoomChart()">Zoom Reset</Button>
             </div>
             <div class="forms" id= "scrollDiv">
                 <div id="insert_form" style="display:none;">
@@ -99,8 +95,10 @@
     <footer>
         <p>Copyright © UneWeb 2023</p>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js" integrity="sha512-wUYbRPLV5zs6IqvWd88HIqZU/b8TBx+I8LEioQ/UC0t5EMCLApqhIAnUg7EsAzdbhhdgW07TqYDdH3QEXRcPOQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/charts.js"></script>
     <script src="./js/tabs.js"></script>
     <script src="./js/forms.js"></script>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
 html {
     scroll-behavior: smooth;
@@ -25,11 +26,12 @@ body {
     align-items: center;
     height: 70px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .hero-container .logo a {
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
     margin-right: 100px;
     display: flex;
@@ -40,20 +42,9 @@ body {
 }
 
 .hero-container .logo img {
-    max-width: 50px;
+    max-width: 60px;
     background-color: #fff;
     border-radius: 20%;
-}
-
-.hero-container .links {
-    display: flex;
-    gap: 30px;
-}
-
-.link-one, .link-two, .link-three {
-    color: #E5E7EB;
-    font-size: 18px;
-    text-decoration: none;
 }
 
 /******TABS******/
@@ -65,6 +56,7 @@ body {
 .tabs .controls {
     display: flex;
     border: solid 4px #070e18;
+    margin-bottom: 20px;
 }
 
 .tabs .controls button {
@@ -92,7 +84,6 @@ body {
 }
 
 .tabs .tabs-container .tab {
-    padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
     flex-shrink: 0;
