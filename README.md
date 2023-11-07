@@ -5,6 +5,7 @@
 > A Web Page consisting of several graphs connected to a Database.
 
 ![screenshot](./img/app_screenshot.png)
+![screenshot](./img/app_screenshot_mobile.png)
 
 The Web Page has several functions that allow the user to interact with the Graphics, such as:
 
