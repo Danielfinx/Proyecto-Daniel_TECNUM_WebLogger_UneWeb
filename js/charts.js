@@ -14,6 +14,7 @@ const myChart1= new Chart(document.getElementById('myChart1'), {
         }]
     },
     options: {
+        maintainAspectRatio: false,
         plugins: {
             zoom: {
                 pan: {
@@ -25,6 +26,9 @@ const myChart1= new Chart(document.getElementById('myChart1'), {
                         enabled: true,
                     },
                     mode: 'x',
+                    pinch: {
+                        enabled: true
+                    }
                 }
             }
         }
@@ -44,6 +48,7 @@ const myChart2= new Chart(document.getElementById('myChart2'), {
         }]
     },
     options: {
+        maintainAspectRatio: false,
         plugins: {
             zoom: {
                 pan: {
@@ -55,6 +60,9 @@ const myChart2= new Chart(document.getElementById('myChart2'), {
                         enabled: true,
                     },
                     mode: 'x',
+                    pinch: {
+                        enabled: true
+                    }
                 }
             }
         }
@@ -74,6 +82,7 @@ const myChart3= new Chart(document.getElementById('myChart3'), {
         }]
     },
     options: {
+        maintainAspectRatio: false,
         plugins: {
             zoom: {
                 pan: {
@@ -85,6 +94,9 @@ const myChart3= new Chart(document.getElementById('myChart3'), {
                         enabled: true,
                     },
                     mode: 'x',
+                    pinch: {
+                        enabled: true
+                    }
                 }
             }
         }
@@ -104,6 +116,7 @@ const myChart4= new Chart(document.getElementById('myChart4'), {
         }]
     },
     options: {
+        maintainAspectRatio: false,
         plugins: {
             zoom: {
                 pan: {
@@ -115,6 +128,9 @@ const myChart4= new Chart(document.getElementById('myChart4'), {
                         enabled: true,
                     },
                     mode: 'x',
+                    pinch: {
+                        enabled: true
+                    }
                 }
             }
         }
@@ -134,6 +150,7 @@ const myChart5= new Chart(document.getElementById('myChart5'), {
         }]
     },
     options: {
+        maintainAspectRatio: false,
         plugins: {
             zoom: {
                 pan: {
@@ -145,6 +162,9 @@ const myChart5= new Chart(document.getElementById('myChart5'), {
                         enabled: true,
                     },
                     mode: 'x',
+                    pinch: {
+                        enabled: true
+                    }
                 }
             }
         }
@@ -164,6 +184,7 @@ const myChart6= new Chart(document.getElementById('myChart6'), {
         }]
     },
     options: {
+        maintainAspectRatio: false,
         plugins: {
             zoom: {
                 pan: {
@@ -175,6 +196,9 @@ const myChart6= new Chart(document.getElementById('myChart6'), {
                         enabled: true,
                     },
                     mode: 'x',
+                    pinch: {
+                        enabled: true
+                    }
                 }
             }
         }
@@ -194,6 +218,7 @@ const myChart7= new Chart(document.getElementById('myChart7'), {
         }]
     },
     options: {
+        maintainAspectRatio: false,
         plugins: {
             zoom: {
                 pan: {
@@ -205,6 +230,9 @@ const myChart7= new Chart(document.getElementById('myChart7'), {
                         enabled: true,
                     },
                     mode: 'x',
+                    pinch: {
+                        enabled: true
+                    }
                 }
             }
         }
