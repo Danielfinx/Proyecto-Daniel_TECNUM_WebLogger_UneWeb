@@ -1,8 +1,12 @@
 <?php
     $host = "localhost";
-    $username = "id21514842_tecnum_weblogger";
-    $password = ".Zse4aw3q21";
-    $database = "id21514842_weblogger_crud_uneweb";
+    // $username = "id21514842_tecnum_weblogger";
+    // $password = ".Zse4aw3q21";
+    // $database = "id21514842_weblogger_crud_uneweb";
+
+    $username = "root";
+    $password = "";
+    $database = "weblogger_crud_uneweb";
 
     $link= mysqli_connect ($host, $username, $password);
     mysqli_select_db ($link, $database);

@@ -66,7 +66,7 @@ body {
     font-size: 14px;
     color: rgb(230, 230, 206);
     cursor: pointer;
-    border: none;
+    border: solid 0.5px #070e18;
     font-weight: bold;
 }
 
@@ -96,7 +96,8 @@ body {
 /******CHART******/
 .chartBox {
     width: 900px;
-    max-width: 70%;
+    height: 450px;
+    margin-right: 5%;
 }
 
 .chart-buttons {
@@ -124,6 +125,50 @@ body {
 .chart-buttons button.active {
     background-color: #455469;
 }
+
+/******RESPONSIVE******/
+
+@media only screen and (max-width: 768px) {
+    .chartBox {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .tabs .controls {
+        flex-wrap: wrap;
+    }
+
+    .tabs .controls button {
+        flex: 1 1 25%;
+        font-size: 14px;
+    }
+
+    .tabs .controls button.active {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .chartBox {
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+    }
+
+    .tabs .controls {
+        flex-wrap: wrap;
+    }
+
+    .tabs .controls button {
+        flex: 1 1 20%;
+        font-size: 14px;
+    }
+
+    .tabs .controls button.active {
+        font-size: 16px;
+    }
+}
+
 
 /******FORMS******/
 
