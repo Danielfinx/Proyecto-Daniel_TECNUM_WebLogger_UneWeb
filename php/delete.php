@@ -47,15 +47,23 @@
                 AND data.value= '$_POST[value_dlt]'";
 
                 $result = mysqli_query($link, $sql); //ejecuto la consulta
-                while ($ver = mysqli_fetch_array($result)) { ?>
-                    <tr>
-                        <td><?php print ucwords($ver[1]); ?></td>
-                        <td><?php print $ver[6]; ?></td>
-                        <td><?php print date('d-m-Y', strtotime($ver[7])); ?></td>
-                        <td><?php print $ver[8]; ?></td>
-                        <td><a href="./php/delete2.php?dlt=<?php print $ver[4]; ?>" id="delete" >Eliminar</a></td>
-                    </tr>
-                <?php }
+                if ($result->num_rows > 0) {
+                    while ($ver = mysqli_fetch_array($result)) { ?>
+                        <tr>
+                            <td><?php print ucwords($ver[1]); ?></td>
+                            <td><?php print $ver[6]; ?></td>
+                            <td><?php print date('d-m-Y', strtotime($ver[7])); ?></td>
+                            <td><?php print $ver[8]; ?></td>
+                            <td><a href="./php/delete2.php?dlt=<?php print $ver[4]; ?>" id="delete" >Eliminar</a></td>
+                        </tr>
+                    <?php }
+                } else {
+                    ?>
+                        <tr>
+                            <td colspan="5" style="font-weight: bold;" >NO SE ENCONTRARON RESULTADOS</td>
+                        </tr>
+                    <?php
+                }
             ?>
         </table>
     <?php }
