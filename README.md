@@ -24,9 +24,9 @@ The Web Page has several functions that allow the user to interact with the Grap
 - JQuery
 - HammerJS
 
-## Live Demo
+## Live Version
 
-[Live Demo Link](https://webloggerpage.000webhostapp.com/)
+[Live Version Link](https://webloggerpage.000webhostapp.com/)
 
 
 ## Getting Started
