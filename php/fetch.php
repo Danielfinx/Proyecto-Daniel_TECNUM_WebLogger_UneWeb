@@ -2,8 +2,8 @@
     // Attempt select query execution
     try{
       $sql =
-        "SELECT * FROM weblogger_crud_uneweb.sensor
-        INNER JOIN weblogger_crud_uneweb.data
+        "SELECT * FROM id21514842_weblogger_crud_uneweb.sensor
+        INNER JOIN id21514842_weblogger_crud_uneweb.data
         ON sensor.id = data.id_sensor
         -- WHERE data.value >= sensor.val_min AND data.value <= sensor.val_max
         ORDER BY date ASC, time ASC";

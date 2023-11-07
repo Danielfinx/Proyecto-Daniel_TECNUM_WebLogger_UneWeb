@@ -40,8 +40,8 @@
                 <th scope="col"></th>
             </tr>
             <?php
-                $sql = "SELECT * FROM weblogger_crud_uneweb.sensor
-                INNER JOIN weblogger_crud_uneweb.data
+                $sql = "SELECT * FROM id21514842_weblogger_crud_uneweb.sensor
+                INNER JOIN id21514842_weblogger_crud_uneweb.data
                 ON sensor.id = data.id_sensor
                 WHERE data.id_sensor= '$_POST[sensor_dlt]' 
                 AND data.value= '$_POST[value_dlt]'";

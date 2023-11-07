@@ -26,7 +26,7 @@ The Web Page has several functions that allow the user to interact with the Grap
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://webloggerpage.000webhostapp.com/)
 
 
 ## Getting Started
