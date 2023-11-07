@@ -94,6 +94,9 @@
         </div>
     </div>
     <footer>
+        <div class="git-container">
+            <a href="https://github.com/Danielfinx/Proyecto-Daniel_TECNUM_WebLogger_UneWeb" target="_blank"><i class="bi bi-github"></i></a>
+        </div>
         <p>Copyright © UneWeb 2023</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
