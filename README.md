@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Uneweb-blue)
 
-# Project Name
+# WebLogger UneWeb
 
 > One paragraph statement about the project.
 
@@ -10,9 +10,11 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5
+- CSS3
+- JavaScript
+- JQuery
+- HammerJS
 
 ## Live Demo
 
@@ -21,15 +23,15 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+1. You only need to clone this repo on your local machine.
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+To make this repository working in your local machine you need only a browser.
+
+<!-- ### Setup
 
 ### Install
 
@@ -37,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Run tests
 
-### Deployment
+### Deployment -->
 
 
 
@@ -46,20 +48,14 @@ To get a local copy up and running follow these simple example steps.
 👤 **Daniel Enrique Santander Finol**
 
 - GitHub: [@Danielfinx](https://github.com/Danielfinx)
-- Twitter: [@Daniel](#)
-- LinkedIn: [LinkedIn](#)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniel-santander-ab260b228/)
+<!-- - Twitter: [@Daniel](#) -->
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Danielfinx/Proyecto-Daniel_TECNUM_WebLogger_UneWeb/issues).
 
 ## Show your support
 
