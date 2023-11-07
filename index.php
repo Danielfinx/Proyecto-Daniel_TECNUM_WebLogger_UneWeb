@@ -9,13 +9,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Logger</title>
+    <title>TECNUM WebLogger</title>
+    <link rel="icon" href="./img/LogoTECNUM.png">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
     <div class="hero-container">
-        <div class="logo"><a href="./index.php"><img src="./img/bar-chart-675.svg" alt="weblogger">WebLogger</a></div>
+        <div class="logo"><a href="./index.php"><img src="./img/LogoTECNUM.png" alt="weblogger">TECNUM WebLogger</a></div>
     </div>
     <div class="chart-container">
         <div class="tabs">

@@ -30,7 +30,7 @@ body {
 }
 
 .hero-container .logo a {
-    color: #F9FAF8;
+    color: rgb(230, 230, 206);
     font-size: 28px;
     font-weight: 700;
     display: flex;
@@ -42,8 +42,9 @@ body {
 
 .hero-container .logo img {
     max-width: 60px;
-    background-color: #fff;
-    border-radius: 20%;
+    background-color: rgb(230, 230, 206);
+    border-radius: 25%;
+    padding: 1px;
 }
 
 /******TABS******/
@@ -63,7 +64,7 @@ body {
     padding: 2px;
     background-color: #1f2937;
     font-size: 14px;
-    color: #F9FAF8;
+    color: rgb(230, 230, 206);
     cursor: pointer;
     border: none;
     font-weight: bold;
