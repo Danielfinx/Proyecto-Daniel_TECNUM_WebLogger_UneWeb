@@ -2,11 +2,19 @@
 
 # WebLogger UneWeb
 
-> One paragraph statement about the project.
+> A Web Page consisting of several graphs connected to a Database.
 
 ![screenshot](./img/app_screenshot.png)
 
-Additional description about the project and its features.
+The Web Page has several functions that allow the user to interact with the Graphics, such as:
+
+- An "Add" function that allows a piece of data to be entered into any of the graphs.
+
+- A "Delete" function that allows deleting a data in any of the graphs.
+
+- A "Modify" function that allows to select a data in any of the graphs and change its information.
+
+- A "Zoom" and "Pan" function that allows you to zoom and pan through the graphs, together with a "Reset" button to quickly return to the original state of the graphs.
 
 ## Built With
 

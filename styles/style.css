@@ -132,7 +132,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 80px;
+    padding-bottom: 65px;
 }
 
 .chart-forms .forms div {
@@ -188,7 +188,7 @@ body {
 
 footer {
     background-color: #1f2937;
-    height: 60px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
