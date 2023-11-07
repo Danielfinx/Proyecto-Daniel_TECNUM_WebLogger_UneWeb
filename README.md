@@ -62,7 +62,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Aristides Molina tutor of UneWeb.
+- Aristides Molina ([@aristides1000](https://github.com/aristides1000)) tutor of UneWeb.
 - Google: For letting us find crucial information in order to create this project.
 
 ## 📝 License
