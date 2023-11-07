@@ -198,6 +198,25 @@ footer {
     bottom: 0;
 }
 
+.git-container {
+    background-color: rgb(230, 230, 206);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bi-github {
+    padding: 1px;
+    font-size: 30px;
+    color:#070e18;
+}
+
 footer p {
     font-size: 18px;
     color: #E5E7EB;
