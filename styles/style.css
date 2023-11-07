@@ -129,6 +129,18 @@ body {
 /******RESPONSIVE******/
 
 @media only screen and (max-width: 768px) {
+    .hero-container {
+        height: 50px;
+    }
+
+    .hero-container .logo a {
+        font-size: 24;
+    }
+
+    .hero-container .logo img {
+        max-width: 50px;
+    }
+
     .chartBox {
         width: 90%;
         padding: 10px;
@@ -140,27 +152,6 @@ body {
 
     .tabs .controls button {
         flex: 1 1 25%;
-        font-size: 14px;
-    }
-
-    .tabs .controls button.active {
-        font-size: 16px;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .chartBox {
-        width: 300px;
-        height: 300px;
-        padding: 10px;
-    }
-
-    .tabs .controls {
-        flex-wrap: wrap;
-    }
-
-    .tabs .controls button {
-        flex: 1 1 20%;
         font-size: 14px;
     }
 
