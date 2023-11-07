@@ -49,7 +49,6 @@ To make this repository working in your local machine you need only a browser.
 
 - GitHub: [@Danielfinx](https://github.com/Danielfinx)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniel-santander-ab260b228/)
-<!-- - Twitter: [@Daniel](#) -->
 
 ## 🤝 Contributing
 
@@ -63,9 +62,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Aristides Molina tutor of UneWeb.
+- Google: For letting us find crucial information in order to create this project.
 
 ## 📝 License
 
