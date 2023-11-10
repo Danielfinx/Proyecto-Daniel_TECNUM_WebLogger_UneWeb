@@ -15,7 +15,7 @@ The Web Page has several functions that allow the user to interact with the Grap
 
 - A "Modify" function that allows to select a data in any of the graphs and change its information.
 
-- A "Zoom" and "Pan" function that allows you to zoom and pan through the graphs, together with a "Reset" button to quickly return to the original state of the graphs.
+- A "Zoom" and "Pan" function that allows you to zoom and scroll through the graphics with the mouse wheel or by "pinch" on mobile, along with a "Reset" button to quickly return to the original graphics state.
 
 ## Built With
 
