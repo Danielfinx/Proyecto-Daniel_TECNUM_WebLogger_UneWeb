@@ -9,9 +9,9 @@
                     <option value=2><?php print $tabLabel[2] ?></option>
                     <option value=3><?php print $tabLabel[3] ?></option>
                     <option value=4><?php print $tabLabel[4] ?></option>
-                    <option value=2><?php print $tabLabel[5] ?></option>
-                    <option value=3><?php print $tabLabel[6] ?></option>
-                    <option value=4><?php print $tabLabel[7] ?></option>
+                    <option value=5><?php print $tabLabel[5] ?></option>
+                    <option value=6><?php print $tabLabel[6] ?></option>
+                    <option value=7><?php print $tabLabel[7] ?></option>
                 </select> <br>
             </td>
         </tr>

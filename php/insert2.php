@@ -1,7 +1,7 @@
 <?php
     include "./conection.php";
 
-    $sql="INSERT INTO data values('','$_POST[sensor]','$_POST[value]','$_POST[date]', '$_POST[time]')";
+    $sql="INSERT INTO data values('0','$_POST[sensor]','$_POST[value]','$_POST[date]', '$_POST[time]')";
     $result = mysqli_query($link, $sql); //ejecuto la consulta
 
     header('Location: ../index.php');
