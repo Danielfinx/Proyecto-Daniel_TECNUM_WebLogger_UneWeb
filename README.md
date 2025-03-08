@@ -27,7 +27,8 @@ The Web Page has several functions that allow the user to interact with the Grap
 
 ## Live Version
 
-[Live Version Link](https://webloggerpage.000webhostapp.com/)
+[Live Version Link](#)
+<!--(https://webloggerpage.000webhostapp.com/)-->
 
 
 ## Getting Started
